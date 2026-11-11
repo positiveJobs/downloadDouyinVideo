@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.python-version
+.idea/
+browser_data/
+
+# 本地环境变量（可能包含 Cookie 等凭据），不要提交
+.env

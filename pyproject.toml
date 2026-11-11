@@ -1,0 +1,16 @@
+[project]
+name = "playwright-plan"
+version = "0.1.0"
+description = "基于 Playwright 的抖音视频下载链接解析器（提炼自 MediaCrawler douyin 模块）"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "playwright>=1.49.0",
+    "httpx>=0.28.0",
+    "PyExecJS>=1.5.1",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+]
+
+[tool.uv]
+package = false
