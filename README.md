@@ -119,7 +119,7 @@ node --version
 
 ## 准备 Cookie
 
-具体步骤可以参考文件:  [Cookie-Editor 提取 cookies ](assets/Cookie-Editor 提取 cookies 教程.md)
+具体步骤可以参考文件:  具体步骤可以参考文件: [Cookie-Editor 提取 cookies](assets/Cookie-Editor提取cookies教程.md)
 
 抖音的视频详情接口对匿名请求强制登录：响应头 `x-whale-throughput-abort-data` 会解码出 `CUSTOM_强登_模型`，并返回空响应。因此**必须提供已登录账号的 Cookie**。
 
