@@ -1,5 +1,4 @@
 # 抖音视频下载工具
-
 一个运行在本机的抖音视频解析工具：输入抖音**视频链接 / 短链 / 纯视频 ID**，输出视频的**去水印下载直链**，以及标题、作者、封面、时长等基础信息。项目同时提供**命令行**与**本地 Web 界面**两种使用方式。
 
 核心实现提炼自开源项目 [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) 的抖音模块，只保留「视频信息 + 下载链接 + 本地代理」这一条链路，去掉了评论、创作者主页、搜索、数据库存储等能力。
@@ -120,7 +119,7 @@ node --version
 
 ## 准备 Cookie
 
-具体步骤可以参考文件: [Cookie-Editor 提取 cookies 教程](./assets/Cookie-Editor 提取 cookies 教程.md)
+具体步骤可以参考文件:  [Cookie-Editor 提取 cookies ](assets/Cookie-Editor 提取 cookies 教程.md)
 
 抖音的视频详情接口对匿名请求强制登录：响应头 `x-whale-throughput-abort-data` 会解码出 `CUSTOM_强登_模型`，并返回空响应。因此**必须提供已登录账号的 Cookie**。
 
